@@ -1,0 +1,35 @@
+<html>
+    <head>
+    <title>
+    Increment and Decrement
+    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="result">0</p>
+    <button id="incrementbtn">Increment</button>
+    <br><br>
+    <button id="decrementbtn">Decrement</button>
+
+    <script>
+        let Incrementbtn=document.getElementById("incrementbtn");
+        let resultElement1= document.getElementById("result");
+        let counter=0;
+        Incrementbtn.addEventListener('click',function(){
+         console.log("clicking");
+         counter=counter+1;
+         resultElement1.textContent=counter;
+        });  
+        
+        
+        let decrementbtn=document.getElementById("decrementbtn");
+        let resultElement2= document.getElementById("result");
+        
+        decrementbtn.addEventListener('click',function(){
+         console.log("clicking");
+         counter=counter-1;
+         resultElement2.textContent=counter;
+        });  
+    </script>
+</body>
+</html>
