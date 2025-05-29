@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding:0;
+}
+h1{
+    text-align: center;
+    background-color: chartreuse;
+    padding: 5px;
+    margin: 0;
+   /* font-size: 40px; */
+}
+.main{
+    margin-left:200px;
+    margin-right:200px;
+    margin-top: 10px;
+    background-color:gainsboro;
+    padding: 3px;
+   
+}
+#subDiv1{
+    margin-left:20px;
+    padding:0px;
+}
+h2{
+    color: darkgreen;
+    padding:0px;
+    margin:0;
+
+}
+hr{
+    height:3px;
+    background-color: cornflowerblue;
+    
+}
+span{
+    background-color: darkgreen;
+    border-radius: 5px;
+    color:white;
+    padding:2px;
+}
+button{
+    background-color: darkgreen;
+    border-radius: 5px;
+    color:white;
+    padding:5px;
+    cursor: pointer;
+   text-align: center;
+}
+button:hover{
+    background-color:rgb(72, 255, 0);
+}
+#sd2 {
+    display: none;
+}
